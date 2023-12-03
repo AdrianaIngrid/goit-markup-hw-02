@@ -60,7 +60,7 @@ background-color: var(--navy-color);
     background-color: var(--navy-color);
 }
 .studio-span {
-    color: var(--cloud-color);
+color: var(--cloud-color);
 font-family: Raleway;
 font-size: 18px;
 font-weight: 800;
