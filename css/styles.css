@@ -32,7 +32,7 @@ a {
 .list-buttons {
     list-style: none;
 }
-.logo-link-header {
+.logo-header {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
     color:var(--iris-color);
@@ -68,7 +68,10 @@ line-height: 1.16;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.address-links {
+.address-list {
+    font-style: normal; 
+}
+.address-contacts {
     text-decoration: none;
     color: var(--body-color);
     font-weight: 400;
@@ -143,7 +146,7 @@ cursor: pointer;
 .section-one {
     background-color: var(--navy-color);
 }
-.list-style {
+.nav-footer {
 list-style: none;
 }
 /* Strategy-Punctuality...*/
@@ -184,6 +187,9 @@ list-style: none;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+}
+.portfolio-elements {
+    list-style: none;
 }
 .portfolio-titles {
     font-size: 20px;
