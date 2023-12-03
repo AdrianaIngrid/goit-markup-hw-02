@@ -39,7 +39,7 @@ body {
 .logo-studio {
     color: var(--navy-color);
 }
-.logo-link-footer {
+.logo-of-footer {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
     color:var(--navy-color);
@@ -48,6 +48,7 @@ body {
     letter-spacing: 0.54px;
     line-height: 1.17;
     text-transform: uppercase;
+    background-color: var(--navy-color);
 }
 .studio-span {
     color: var(--cloud-color);
@@ -137,6 +138,10 @@ cursor: pointer;
 list-style: none;
 }
 /* Strategy-Punctuality...*/
+.section-two {
+    list-style: none
+    ;
+}
 .section-two-titles {
     color: var(--navy-color);
     font-weight: 500;
@@ -158,6 +163,9 @@ list-style: none;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    background-color: var(--background-color);
+}
+.section-four-element {
     background-color: var(--background-color);
 }
 
