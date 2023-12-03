@@ -183,7 +183,7 @@ list-style: none;
     letter-spacing: 0.32px;
     background-color: var(--navy-color);
 }
-.section-2-index-paragraph {
+.section-two-index-paragraph {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -197,6 +197,6 @@ list-style: none;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.section-4-our-team {
+.section-four-our-team {
     background-color: var(--cloud-color);
 }
