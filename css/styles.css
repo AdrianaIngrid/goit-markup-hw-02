@@ -137,13 +137,16 @@ cursor: pointer;
 list-style: none;
 }
 /* Strategy-Punctuality...*/
-.section-2-titles {
+.section-two-titles {
     color: var(--navy-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
     font-style: normal;
+}
+.section-three {
+    list-style: none;
 }
 /*Our Team Title*/
 .four-section-title {
