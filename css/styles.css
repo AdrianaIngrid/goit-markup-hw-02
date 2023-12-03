@@ -16,11 +16,13 @@ body {
 /*Link Clases*/
 .navbar-studio {
     text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px;
 }
-.nav-list {
-    list-style: none;
 
-}
 .list-buttons {
     list-style: none;
 }
@@ -94,23 +96,10 @@ cursor: pointer;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    font-family: 'Roboto';
-}
+   }
 .all-filter-button:hover, .all-filter-button:focus {
     color: var(--white-color);
     cursor: pointer;
-}
-.filters-buttons {
-    background-color:var(--cloud-color);
-    color: var(--iris-color);
-    font-weight:500;
-    line-height: 1.5;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 0.64px;
-}
-.filter-buttons:hover, .filter-buttons:focus {
-    color: var(--ocean-color);
 }
 .links-portfolio {
  text-decoration: none;
@@ -143,6 +132,9 @@ cursor: pointer;
 } 
 .section-one {
     background-color: var(--navy-color);
+}
+.list-style {
+list-style: none;
 }
 /* Strategy-Punctuality...*/
 .section-2-titles {
