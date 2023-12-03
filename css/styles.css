@@ -12,6 +12,12 @@ body {
     color:  #434455;
     background-color:var(--background-color);
 }
+a {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+  }
 /*Classes*/
 /*Link Clases*/
 .navbar-studio {
@@ -45,7 +51,7 @@ background-color: var(--navy-color);
 .logo-of-footer {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
-    color:var(--navy-color);
+    color:var(--iris-color);
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.54px;
