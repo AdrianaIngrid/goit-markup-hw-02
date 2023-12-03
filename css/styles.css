@@ -1,9 +1,9 @@
 .root {
-    --brand-color: #4D5AE5;
     --white-color: #FFFFFF;
     --navy-color: #2E2F42;
     --iris-color: #4D5AE5;
-    --hoover-focus-color: #404bbf;
+    --ocean-color: #404bbf;
+    --cloud-color: #F4F4FD;
     }
 /*Global Styles*/
 body {
@@ -62,24 +62,26 @@ body {
     font-size: 16px;
     }
 .order-service-button:hover, .order-service-button:focus{
-color: var(--hoover-focus-color);
+color: var(--white-color);
 }
 /* Portfolio buttons*/
 .all-filter-button {
-    font-family: 'Roboto';
-    background-color:#404BBF;
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--ocean-color);
     color: var(--white-color);
     font-weight: 500;
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    font-family: 'Roboto';
 }
 .all-filter-button:hover, .all-filter-button:focus {
-    color: var(--hoover-focus-color);
+    color: var(--white-color);
+    cursor: pointer;
 }
 .filters-buttons {
-    background-color:#E7E9FC;
+    background-color:var(--cloud-color);
     color: var(--iris-color);
     font-weight:500;
     line-height: 1.5;
@@ -88,7 +90,7 @@ color: var(--hoover-focus-color);
     letter-spacing: 0.64px;
 }
 .filter-buttons:hover, .filter-buttons:focus {
-    color: var(--hoover-focus-color);
+    color: var(--ocean-color);
 }
 .links-portfolio {
  text-decoration: none;
@@ -97,7 +99,7 @@ color: var(--hoover-focus-color);
  font-size: 20px;
 }
 .links-portfolio:hover, .links-portfolio:focus {
-    color-scheme: var(--hoover-focus-color);
+    color-scheme: var(--ocean-color);
 }
 /* Titles Styles*/
 .hero-section-title {
@@ -147,6 +149,14 @@ color: var(--hoover-focus-color);
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
+.portfolio-titles {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2px;
+    letter-spacing: 0.4px;
+    color: var(--navy-color);
+}
 /*Paragraph Syles*/
 .footer-paragraph {
     color: #F4F4FD;
@@ -161,6 +171,13 @@ color: var(--hoover-focus-color);
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.portfolio-pharagraphs {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
