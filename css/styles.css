@@ -40,12 +40,21 @@ body {
 .logo-link-footer {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
-    color:var(--iris-color);
+    color:var(--navy-color);
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.54px;
+    line-height: 1.17;
     text-transform: uppercase;
-
+}
+.studio-span {
+    color: var(--cloud-color);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.16;
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .address-links {
     text-decoration: none;
@@ -54,6 +63,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    font-style: normal;
 }
 .address-links:hover, .address-links:focus {
     color: var(--ocean-color);
@@ -65,9 +75,14 @@ body {
     color:var(--white-color);
     font-weight: 500;
     font-size: 16px;
+    font-family:'Roboto',sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
     }
 .order-service-button:hover, .order-service-button:focus{
 color: var(--white-color);
+background-color: var(--ocean-color);
+cursor: pointer;
 }
 /* Portfolio buttons*/
 .all-filter-button {
@@ -126,6 +141,9 @@ color: var(--white-color);
     text-transform: capitalize;
     text-align: center;
 } 
+.section-one {
+    background-color: var(--navy-color);
+}
 /* Strategy-Punctuality...*/
 .section-2-titles {
     color: var(--navy-color);
@@ -145,6 +163,7 @@ color: var(--white-color);
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    background-color: var(--background-color);
 }
 
 .our-team-names {
@@ -185,4 +204,7 @@ color: var(--white-color);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+.section-4-our-team {
+    background-color: var(--cloud-color);
 }
