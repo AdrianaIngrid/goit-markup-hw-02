@@ -39,6 +39,9 @@ body {
 .logo-studio {
     color: var(--navy-color);
 }
+.general-footer {
+background-color: var(--navy-color);
+}
 .logo-of-footer {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
