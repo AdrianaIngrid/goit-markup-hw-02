@@ -3,18 +3,25 @@
     --white-color: #FFFFFF;
     --navy-color: #2E2F42;
     --iris-color: #4D5AE5;
-    --hoover-focus-color: orange;
-    --body-color: #434455;
-}
+    --hoover-focus-color: #404bbf;
+    }
 /*Global Styles*/
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--body-color);
+    color:  #434455;
+    background-color:var(--white-color);
 }
 /*Classes*/
 /*Link Clases*/
 .navbar-studio {
     text-decoration: none;
+}
+.nav-list {
+    list-style: none;
+
+}
+.list-buttons {
+    list-style: none;
 }
 .logo-link-header {
     text-decoration: none;
@@ -22,7 +29,12 @@ body {
     color:var(--iris-color);
     font-weight: 800;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+.logo-studio {
+    color: var(--navy-color);
 }
 .logo-link-footer {
     text-decoration: none;
@@ -30,6 +42,7 @@ body {
     color:var(--iris-color);
     font-weight: 800;
     font-size: 18px;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 
 }
@@ -53,10 +66,14 @@ color: var(--hoover-focus-color);
 }
 /* Portfolio buttons*/
 .all-filter-button {
+    font-family: 'Roboto';
     background-color:#404BBF;
     color: var(--white-color);
     font-weight: 500;
     font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
 }
 .all-filter-button:hover, .all-filter-button:focus {
     color: var(--hoover-focus-color);
@@ -65,6 +82,10 @@ color: var(--hoover-focus-color);
     background-color:#E7E9FC;
     color: var(--iris-color);
     font-weight:500;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.64px;
 }
 .filter-buttons:hover, .filter-buttons:focus {
     color: var(--hoover-focus-color);
@@ -84,37 +105,62 @@ color: var(--hoover-focus-color);
     color: var(--white-color);
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 1.12px;
     }
+    /*What are we doing */
 .three-section-title {
     font-weight: 700;
     font-size: 36px;
     color:var(--navy-color);
-}
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+} 
+/* Strategy-Punctuality...*/
 .section-2-titles {
     color: var(--navy-color);
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    font-style: normal;
 }
-
+/*Our Team Title*/
 .four-section-title {
+    text-align: center;
     color: var(--navy-color);
     font-weight: 700;
     font-size: 36px;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .our-team-names {
     color: var(--navy-color);
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 /*Paragraph Syles*/
 .footer-paragraph {
     color: #F4F4FD;
     font-weight: 400;
     font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
     background-color: var(--navy-color);
 }
 .section-2-index-paragraph {
     font-weight: 400;
+    font-style: normal;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
