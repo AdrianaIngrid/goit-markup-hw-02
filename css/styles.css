@@ -1,0 +1,120 @@
+.root {
+    --brand-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --navy-color: #2E2F42;
+    --iris-color: #4D5AE5;
+    --hoover-focus-color: orange;
+    --body-color: #434455;
+}
+/*Global Styles*/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-color);
+}
+/*Classes*/
+/*Link Clases*/
+.navbar-studio {
+    text-decoration: none;
+}
+.logo-link-header {
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    color:var(--iris-color);
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.logo-link-footer {
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    color:var(--iris-color);
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.address-links {
+    text-decoration: none;
+    color: var(--body-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Buttons*/
+/*Index buttons*/
+.order-service-button {
+    background-color: var(--iris-color);
+    color:var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+    }
+.order-service-button:hover, .order-service-button:focus{
+color: var(--hoover-focus-color);
+}
+/* Portfolio buttons*/
+.all-filter-button {
+    background-color:#404BBF;
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+.all-filter-button:hover, .all-filter-button:focus {
+    color: var(--hoover-focus-color);
+}
+.filters-buttons {
+    background-color:#E7E9FC;
+    color: var(--iris-color);
+    font-weight:500;
+}
+.filter-buttons:hover, .filter-buttons:focus {
+    color: var(--hoover-focus-color);
+}
+.links-portfolio {
+ text-decoration: none;
+ color: var(--navy-color);
+ font-weight: 500;
+ font-size: 20px;
+}
+.links-portfolio:hover, .links-portfolio:focus {
+    color-scheme: var(--hoover-focus-color);
+}
+/* Titles Styles*/
+.hero-section-title {
+    background-color:var(--navy-color);
+    color: var(--white-color);
+    font-size: 56px;
+    font-weight: 700;
+    }
+.three-section-title {
+    font-weight: 700;
+    font-size: 36px;
+    color:var(--navy-color);
+}
+.section-2-titles {
+    color: var(--navy-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.four-section-title {
+    color: var(--navy-color);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.our-team-names {
+    color: var(--navy-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+/*Paragraph Syles*/
+.footer-paragraph {
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--navy-color);
+}
+.section-2-index-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+}
