@@ -119,6 +119,10 @@ cursor: pointer;
     color: var(--white-color);
     cursor: pointer;
 }
+.all-fb {
+    color: var(--iris-color);
+    background-color: var(--cloud-color);
+}
 .links-portfolio {
  text-decoration: none;
  color: var(--navy-color);
@@ -182,6 +186,7 @@ cursor: pointer;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    background-color: var(--background-color);
 }
 .portfolio-titles {
     font-size: 20px;
