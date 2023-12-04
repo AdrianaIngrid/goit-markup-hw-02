@@ -121,6 +121,7 @@ cursor: pointer;
 .all-filter-button:hover, .all-filter-button:focus {
     color: var(--white-color);
     cursor: pointer;
+    background-color: var(--ocean-color);
 }
 .all-fb {
     color: var(--iris-color);
