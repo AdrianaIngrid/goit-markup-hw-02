@@ -110,8 +110,8 @@ cursor: pointer;
 /* Portfolio buttons*/
 .all-filter-button {
     font-family: 'Roboto',sans-serif;
-    background-color: var(--ocean-color);
-    color: var(--white-color);
+    background-color: var(--cloud-color);
+    color: var(--iris-color);
     font-weight: 500;
     font-size: 16px;
     text-align: center;
