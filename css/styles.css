@@ -27,6 +27,10 @@ a {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
+    color: var(--navy-color);
+}
+.nav-header {
+    list-style: none;
 }
 
 .list-buttons {
@@ -44,6 +48,13 @@ a {
 }
 .logo-studio {
     color: var(--navy-color);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 .general-footer {
 background-color: var(--navy-color);
