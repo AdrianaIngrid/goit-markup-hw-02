@@ -5,6 +5,7 @@
     --ocean-color: #404bbf;
     --cloud-color: #F4F4FD;
     --background-color: #FFFFFFFF;
+    --slate-color : #434455;
         }
 /*Global Styles*/
 body {
@@ -186,7 +187,7 @@ cursor: pointer;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
     color: var(--navy-color);
 }
@@ -213,6 +214,7 @@ cursor: pointer;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: var(--slate-color);
 }
 .section-four-our-team {
     background-color: var(--cloud-color);
