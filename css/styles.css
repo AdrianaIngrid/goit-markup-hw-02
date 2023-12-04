@@ -40,6 +40,9 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+.logo-header:hover,.logo-header:hover {
+    color: var(--ocean-color);
+}
 .logo-studio {
     color: var(--navy-color);
     font-family: Raleway;
@@ -85,7 +88,7 @@ text-transform: uppercase;
     letter-spacing: 0.32px;
     font-style: normal;
 }
-.address-contacts, .address-contacts:focus {
+.address-contacts:hover, .address-contacts:focus {
     color: var(--ocean-color);
 }
 /*Buttons*/
