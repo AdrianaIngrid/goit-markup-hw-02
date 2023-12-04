@@ -78,14 +78,14 @@ text-transform: uppercase;
 }
 .address-contacts {
     text-decoration: none;
-    color: var(--body-color);
+    color: var(--slate-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
     font-style: normal;
 }
-.address-links:hover, .address-links:focus {
+.address-contacts, .address-contacts:focus {
     color: var(--ocean-color);
 }
 /*Buttons*/
