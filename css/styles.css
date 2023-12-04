@@ -12,11 +12,11 @@ body {
     color:  #434455;
     background-color:var(--background-color);
 }
-a {
+.link {
     text-decoration: none;
   }
-  ul {
-    list-style-type: none;
+  .list {
+    list-style: none;
   }
 /*Classes*/
 /*Link Clases*/
@@ -28,13 +28,6 @@ a {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
     color: var(--navy-color);
-}
-.nav-header {
-    list-style: none;
-}
-
-.list-buttons {
-    list-style: none;
 }
 .logo-header {
     text-decoration: none;
@@ -157,14 +150,7 @@ cursor: pointer;
 .section-one {
     background-color: var(--navy-color);
 }
-.nav-footer {
-list-style: none;
-}
 /* Strategy-Punctuality...*/
-.section-two {
-    list-style: none
-    ;
-}
 .section-two-titles {
     color: var(--navy-color);
     font-weight: 500;
@@ -172,9 +158,6 @@ list-style: none;
     line-height: 1.2;
     letter-spacing: 0.4px;
     font-style: normal;
-}
-.section-three {
-    list-style: none;
 }
 /*Our Team Title*/
 .four-section-title {
@@ -198,9 +181,6 @@ list-style: none;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
-}
-.portfolio-elements {
-    list-style: none;
 }
 .portfolio-titles {
     font-size: 20px;
