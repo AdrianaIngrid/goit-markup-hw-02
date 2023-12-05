@@ -30,6 +30,9 @@ body {
     letter-spacing: 0.32px;
     color: var(--navy-color);
 }
+.navbar-studio:hover, .navbar-studio:focus{
+    color: var(--ocean-color);
+}
 .logo-header {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
