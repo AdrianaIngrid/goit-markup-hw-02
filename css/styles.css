@@ -134,7 +134,7 @@ cursor: pointer;
  font-size: 20px;
 }
 .links-portfolio:hover, .links-portfolio:focus {
-    color-scheme: var(--ocean-color);
+    color: var(--ocean-color);
 }
 /* Titles Styles*/
 .hero-section-title {
