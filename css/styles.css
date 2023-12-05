@@ -192,6 +192,9 @@ cursor: pointer;
     letter-spacing: 0.4px;
     background-color: var(--background-color);
 }
+.our-team-img {
+    background-color: var(--background-color);
+}
 .portfolio-titles {
     font-size: 20px;
     font-style: normal;
